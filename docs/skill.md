@@ -64,7 +64,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-## Full Catalog — 16 Categories, 247 Services
+## Full Catalog — 16 Categories, 248 Services
 
 ### 1. Communication (16 services)
 *Give agents a first-class communication identity on the internet.*
@@ -90,7 +90,7 @@ These services can be joined with a single instruction, right now, with no human
 
 ---
 
-### 2. Browser & Web Execution (26 services)
+### 2. Browser & Web Execution (27 services)
 *Remote browser and web data extraction for agents.*
 
 | Service | Tagline | Onboarding |
@@ -114,6 +114,7 @@ These services can be joined with a single instruction, right now, with no human
 | [Cloudflare Browser Rendering](https://developers.cloudflare.com/browser-run/) | Headless Chrome on Cloudflare for AI agents | Workers bindings + Browser Run + [Playwright MCP](https://developers.cloudflare.com/browser-run/playwright/playwright-mcp/) |
 | [Olostep](https://www.olostep.com) | Web data API for AI agents | API key → [docs.olostep.com](https://docs.olostep.com) — `npx -y olostep-mcp` or `https://mcp.olostep.com/mcp` |
 | [Lightpanda](https://lightpanda.io) | Headless browser for AI agents (CDP + MCP + markdown fetch) | [Install](https://github.com/lightpanda-io/browser#install) → `lightpanda serve` or `lightpanda mcp` — [MCP docs](https://lightpanda.io/docs/open-source/guides/mcp-server) |
+| [Jet Browser](https://masaka-ai.vercel.app/jet-browser/) | The browser runtime agents can carry | Docker + curl: `curl -fsSL https://raw.githubusercontent.com/masakaai/jet-browser/main/scripts/try-jet.sh \| sh` |
 | [Apify](https://apify.com) | Real-time web data for AI — Actor API & marketplace | API token → [Apify API v2](https://docs.apify.com/api/v2) — `apify-client` |
 | [Vessel Browser](https://github.com/unmodeled-tyler/vessel-browser) | Durable agent browser with action undo | `npm install -g vessel-browser` → `vessel-browser --mcp` |
 | [Hronaut](https://hronaut.dev) | A browser your AI agent can come back to. | Owner installs the desktop app per [hronaut.dev/setup](https://hronaut.dev/setup), then connects a local Streamable HTTP MCP client — skill: `npx skills add hronaut/hronaut --skill hronaut` |

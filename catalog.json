@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "f72bcbe4c775c39f0da0c194863cd540ee256bcbee206f24c8a629a3706937e0",
+      "value": "a5c84bcf85282a41c8e8f4cbd66517808894248593c1373d0cbcccfd6aa4ca1d",
       "input_paths": [
         "README.md",
         "skill.md",
