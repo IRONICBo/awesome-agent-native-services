@@ -3,7 +3,7 @@ title: "Awesome Agent-Native Services"
 description: "A curated list of agent-native services for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools, with criteria and onboarding guides."
 image: /assets/images/social-preview-wide.webp
 page_kind: home
-service_count: 247
+service_count: 248
 collection_count: 16
 new_arrivals_count: 83
 ---
@@ -704,7 +704,7 @@ new_arrivals_count: 83
   <div class="section-intro">
     <span class="section-number">02</span>
     <h2 class="section-title" id="collections-title">The collections</h2>
-    <p class="section-note">16 fields · 247 dossiers</p>
+    <p class="section-note">16 fields · 248 dossiers</p>
   </div>
   <div class="collection-grid">
     <a class="collection-card atlas-visual--01" href="{{ '/categories/communication/' | relative_url }}">
@@ -720,7 +720,7 @@ new_arrivals_count: 83
       <span class="collection-card__copy">
       <span class="collection-card__number">02</span>
       <span class="collection-card__title">Browser &amp; Web Execution</span>
-      <span class="collection-card__count">26</span>
+      <span class="collection-card__count">27</span>
       </span>
     </a>
     <a class="collection-card atlas-visual--03" href="{{ '/categories/tool-access-and-integration/' | relative_url }}">
