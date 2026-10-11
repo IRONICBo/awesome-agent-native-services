@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "254c6c7061172b038938dbfe40b3b80c66a179937f5784e81a51e6389d6e707a",
+      "value": "13ba5a317e2fba541a5e91b94e1d90cbc14cc5e174d3cf886ecffab0bb0c320d",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -48,6 +48,7 @@
         "services/browser-and-web-execution/firecrawl.md",
         "services/browser-and-web-execution/hronaut.md",
         "services/browser-and-web-execution/hyperbrowser.md",
+        "services/browser-and-web-execution/jet-browser.md",
         "services/browser-and-web-execution/kernel.md",
         "services/browser-and-web-execution/lightpanda.md",
         "services/browser-and-web-execution/moli.md",
@@ -283,7 +284,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 247
+    "services": 248
   },
   "categories": [
     {
@@ -298,7 +299,7 @@
       "name": "Browser & Web Execution",
       "description": "Services that give AI agents a remote, managed browser runtime — so agents can navigate, interact with, and extract data from the web as an autonomous actor, without any human operating a browser on their behalf.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/README.md",
-      "service_count": 26
+      "service_count": 27
     },
     {
       "id": "tool-access-and-integration",
@@ -1393,6 +1394,40 @@
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
+    },
+    {
+      "id": "browser-and-web-execution/jet-browser",
+      "slug": "jet-browser",
+      "name": "Jet Browser",
+      "tagline": "Jet Browser — the browser runtime agents can carry",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "active",
+      "category": "browser-and-web-execution",
+      "website": "https://masaka-ai.vercel.app/jet-browser/",
+      "repository": "https://github.com/masakaai/jet-browser",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/browser-and-web-execution/jet-browser.md",
+      "source_path": "services/browser-and-web-execution/jet-browser.md",
+      "onboarding": {
+        "type": "agent-skill",
+        "pattern": "Coding-time Skill + local container runtime",
+        "instruction": "npx skills add masakaai/jet-browser --skill jet-browser --yes\ngit clone https://github.com/masakaai/jet-browser.git\ncd jet-browser\nnpm ci\nnpm run standalone",
+        "url": "https://github.com/masakaai/jet-browser.git"
+      },
+      "protocols": [
+        "agent-skill",
+        "mcp",
+        "sdk",
+        "stdio",
+        "http"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
+      "latest_month_signal": "v0.8.0 released 2026-10-10 with a versioned OCI runtime, an Agent Skill, and the bounded Jet Browser Verifier MCP package",
+      "verified_at": "2026-10-11",
+      "verification_sources": [
+        "https://github.com/masakaai/jet-browser/releases/tag/v0.8.0"
+      ]
     },
     {
       "id": "browser-and-web-execution/kernel",
