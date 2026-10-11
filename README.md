@@ -85,7 +85,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 
 ## Categories
 
-**244 services across 16 categories.**
+**246 services across 16 categories.**
 
 | # | Category | Services | Description |
 |---|---|---|---|
@@ -93,7 +93,7 @@ Recommended flow for agents: start with `skill.md` for quick discovery, switch t
 | 2 | [Browser & Web Execution](#2-browser--web-execution-services) | 26 | Remote browser and web data extraction for agents |
 | 3 | [Tool Access & Integration](#3-tool-access--integration-services) | 22 | Runtime tool discovery, auth, and execution |
 | 4 | [Oversight & Approval](#4-oversight--approval-services) | 5 | Human-in-the-loop approval and escalation |
-| 5 | [Commerce & Payments](#5-commerce--payment-services) | 16 | Agent-native wallets, identity, and transactions |
+| 5 | [Commerce & Payments](#5-commerce--payment-services) | 17 | Agent-native wallets, identity, and transactions |
 | 6 | [Agent Runtime & Infrastructure](#6-agent-runtime--infrastructure-services) | 32 | Execution, session isolation, secrets, and gateway |
 | 7 | [Agent Harnesses & Operator Surfaces](#7-agent-harnesses--operator-surfaces) | 14 | Durable agent-loop control and live operator visibility |
 | 8 | [Memory & State](#8-memory--state-services) | 31 | Persistent agent memory across sessions |
